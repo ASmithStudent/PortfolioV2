@@ -1,0 +1,15 @@
+{
+  "name": "AdrianSmithPortfolioSiteV2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Smith",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.5.1",
+    "particles.js": "^2.0.0"
+  }
+}
