@@ -50,12 +50,6 @@ section {
   color: rgba(74, 74, 74, .8);
 }
 
-.circular-image {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-}
-
 .is-primary {
   background-color: #00AEEF!important;
 }
@@ -116,6 +110,28 @@ a.icon:hover {
 
 }
 
+#circular-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: static;
+  display: block;
+  margin: 0 auto;
+}
+
+#about-header {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#blurb {
+  max-width: 620px;
+  padding: 0 15px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
 
 #particles-js {
   background-color: #000203 ;
@@ -125,11 +141,13 @@ a.icon:hover {
   position: static;
 }
 
-#works {
-  /*background-color: #f5f5f5;*/
-}
 
 #works-hero {
   margin-top: 60px;
   background-color: #f5f5f5;
+}
+
+#about-me {
+  width: 100%;
+  justify-content: center;
 }
