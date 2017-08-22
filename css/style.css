@@ -1,17 +1,23 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 section {
   width: 100%;
 }
 
+input {
+  font-family: 'Open Sans', sans-serif!important;
+}
+
+
 .title {
   font-family: 'Poppins',Arial,Helvetica,sans-serif !important;
 }
 .subtitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 .section-header {
@@ -82,7 +88,14 @@ a.icon:hover {
   color: rgba(74, 74, 74, 1)!important;
 }
 
-
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #F7F7F7;
+  margin: 0 24px 30px 24px;
+  display: none;
+}
 
 
 #name {
